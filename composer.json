@@ -1,0 +1,17 @@
+{
+    "description": "!",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "riza"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.33",
+        "predis/predis": "^1.1"
+    },
+	"scripts": {
+        "start": "php -S 0.0.0.0:8080 -t index.php"
+	}
+
+}
